@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  email: MyString
+  name: MyString
+  owns_game_id: 1
+  hash: MyString
+  game_id: 
+
+two:
+  email: MyString
+  name: MyString
+  owns_game_id: 1
+  hash: MyString
+  game_id: 
