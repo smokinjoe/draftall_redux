@@ -1,0 +1,8 @@
+<div class="row">
+  <div class="offset4 span4">
+    <%= simple_form_for(:e, :html => { :class => 'well form-horizontal' }) do |f| %>
+      <%= f.input :name, label: false, :placeholder => "What are we drafting?", wrapper_html: { class: 'options' } %>
+      <%= f.button :submit, :class => 'btn pull-right' %>
+    <% end %>
+  </div>
+</div>
