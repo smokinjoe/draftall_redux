@@ -9,7 +9,8 @@ gem 'sqlite3'
 # bootstrap!
 gem 'bootstrap-sass' #'~> 2.3.2.2'
 # simple_form
-gem 'simple_form'
+gem "simple_form", "~> 3.0.0.rc"
+
 
 # JOE: Use only in development?
 # Use SCSS for stylesheets
