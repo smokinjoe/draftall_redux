@@ -3026,3 +3026,74 @@ Started GET "/assets/games.js?body=1" for 76.126.149.32 at 2013-09-09 08:23:18 +
 
 
 Started GET "/assets/application.js?body=1" for 76.126.149.32 at 2013-09-09 08:23:18 +0000
+
+
+Started GET "/games/1" for 76.126.149.32 at 2013-09-09 08:26:23 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by GamesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mGame Load (0.3ms)[0m  SELECT "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered games/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 164ms (Views: 92.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 76.126.149.32 at 2013-09-09 08:26:24 +0000
+
+
+Started GET "/assets/bootstrap-overrides.css?body=1" for 76.126.149.32 at 2013-09-09 08:26:24 +0000
+
+
+Started GET "/assets/application.css?body=1" for 76.126.149.32 at 2013-09-09 08:26:24 +0000
+
+
+Started GET "/assets/games.css?body=1" for 76.126.149.32 at 2013-09-09 08:26:24 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 76.126.149.32 at 2013-09-09 08:26:24 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 76.126.149.32 at 2013-09-09 08:26:24 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 76.126.149.32 at 2013-09-09 08:26:24 +0000
+
+
+Started GET "/assets/games.js?body=1" for 76.126.149.32 at 2013-09-09 08:26:24 +0000
+
+
+Started GET "/assets/application.js?body=1" for 76.126.149.32 at 2013-09-09 08:26:24 +0000
+
+
+Started GET "/games/1" for 76.126.149.32 at 2013-09-09 08:26:44 +0000
+Processing by GamesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mGame Load (0.2ms)[0m  [1mSELECT "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered games/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 15ms (Views: 12.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 76.126.149.32 at 2013-09-09 08:26:45 +0000
+
+
+Started GET "/assets/bootstrap-overrides.css?body=1" for 76.126.149.32 at 2013-09-09 08:26:45 +0000
+
+
+Started GET "/assets/application.css?body=1" for 76.126.149.32 at 2013-09-09 08:26:45 +0000
+
+
+Started GET "/assets/games.css?body=1" for 76.126.149.32 at 2013-09-09 08:26:45 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 76.126.149.32 at 2013-09-09 08:26:45 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 76.126.149.32 at 2013-09-09 08:26:45 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 76.126.149.32 at 2013-09-09 08:26:45 +0000
+
+
+Started GET "/assets/application.js?body=1" for 76.126.149.32 at 2013-09-09 08:26:45 +0000
+
+
+Started GET "/assets/games.js?body=1" for 76.126.149.32 at 2013-09-09 08:26:45 +0000
