@@ -1,12 +1,12 @@
 <div class="row">
   <div class="span12 text-center">
-    <h1>So, what we going to draft today?</h1>
+    <h1>Lorem ipsum dolor sit amet?</h1>
   </div>
 </div>
 <div class="row">
   <div class="offset4 span4">
-    <%= simple_form_for @game do |g| %>
-      <%= g.text_field :title, label: false, :placeholder => "Topic" %>
+    <%= simple_form_for(@game, :html => { :class => '' } ) do |g| %>
+      <%= g.input :title, :wrapper => :no_controls,  label: false, :input_html => { :class => 'span4' }, :placeholder => "Topic" %>
       <%= g.submit "Let's get going!", :class => "pull-right btn btn-inverse" %>
     <% end %>
   </div>
