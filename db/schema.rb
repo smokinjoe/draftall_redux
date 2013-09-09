@@ -25,7 +25,7 @@ ActiveRecord::Schema.define(version: 20130909060303) do
 
   create_table "games", force: true do |t|
     t.string   "title"
-    t.string   "hash"
+    t.string   "identifier"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

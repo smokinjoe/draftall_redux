@@ -1,1 +1,13 @@
-hello from new
+<div class="row">
+  <div class="span12 text-center">
+    <h1>So, what we going to draft today?</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="offset4 span4">
+    <%= simple_form_for @game do |g| %>
+      <%= g.text_field :title, label: false, :placeholder => "Topic" %>
+      <%= g.submit "Let's get going!", :class => "pull-right btn btn-inverse" %>
+    <% end %>
+  </div>
+</div>

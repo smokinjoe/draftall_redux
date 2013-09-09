@@ -1036,3 +1036,526 @@ Started GET "/assets/games.js?body=1" for 76.126.149.32 at 2013-09-09 06:20:48 +
 
 
 Started GET "/assets/application.js?body=1" for 76.126.149.32 at 2013-09-09 06:20:48 +0000
+
+
+Started GET "/" for 76.126.149.32 at 2013-09-09 06:25:04 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 2836ms (Views: 2808.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 76.126.149.32 at 2013-09-09 06:25:08 +0000
+
+
+Started GET "/assets/application.css?body=1" for 76.126.149.32 at 2013-09-09 06:25:08 +0000
+
+
+Started GET "/assets/bootstrap-overrides.css?body=1" for 76.126.149.32 at 2013-09-09 06:25:08 +0000
+
+
+Started GET "/assets/games.css?body=1" for 76.126.149.32 at 2013-09-09 06:25:08 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 76.126.149.32 at 2013-09-09 06:25:08 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 76.126.149.32 at 2013-09-09 06:25:08 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 76.126.149.32 at 2013-09-09 06:25:08 +0000
+
+
+Started GET "/assets/games.js?body=1" for 76.126.149.32 at 2013-09-09 06:25:08 +0000
+
+
+Started GET "/assets/application.js?body=1" for 76.126.149.32 at 2013-09-09 06:25:08 +0000
+
+
+Started GET "/" for 76.126.149.32 at 2013-09-09 06:30:17 +0000
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (23.3ms)
+Completed 500 Internal Server Error in 27ms
+
+ActionView::Template::Error (undefined method `model_name' for NilClass:Class):
+    1: <div class="row">
+    2:   <div class="offset4 span4">
+    3:     <% simple_form_for @game do |g| %>
+    4:       <%= g.text_field :title, label: false, :placeholder => "What are we drafting today?" %>
+    5:       <%= g.submit "Let's get going!", :class => "btn btn-inverse" %>
+    6:     <% end %>
+  app/views/games/new.html.erb:3:in `_app_views_games_new_html_erb__2494570635681597801_24617480'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (17.3ms)
+
+
+Started GET "/" for 76.126.149.32 at 2013-09-09 06:30:37 +0000
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (12.9ms)
+Completed 500 Internal Server Error in 28ms
+
+ActionView::Template::Error (hash is defined by Active Record):
+    1: <div class="row">
+    2:   <div class="offset4 span4">
+    3:     <% simple_form_for @game do |g| %>
+    4:       <%= g.text_field :title, label: false, :placeholder => "What are we drafting today?" %>
+    5:       <%= g.submit "Let's get going!", :class => "btn btn-inverse" %>
+    6:     <% end %>
+  app/views/games/new.html.erb:3:in `_app_views_games_new_html_erb__2494570635681597801_24617480'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (53.4ms)
+
+
+Started GET "/" for 76.126.149.32 at 2013-09-09 06:30:45 +0000
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (11.1ms)
+Completed 500 Internal Server Error in 19ms
+
+ActionView::Template::Error (hash is defined by Active Record):
+    1: <div class="row">
+    2:   <div class="offset4 span4">
+    3:     <% simple_form_for @game do |g| %>
+    4:       <%= g.text_field :title, label: false, :placeholder => "What are we drafting today?" %>
+    5:       <%= g.submit "Let's get going!", :class => "btn btn-inverse" %>
+    6:     <% end %>
+  app/views/games/new.html.erb:3:in `_app_views_games_new_html_erb__2494570635681597801_24617480'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (19.1ms)
+
+
+Started GET "/" for 76.126.149.32 at 2013-09-09 06:30:53 +0000
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (5.6ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (hash is defined by Active Record):
+    1: <div class="row">
+    2:   <div class="offset4 span4">
+    3:     <% simple_form_for @game do |g| %>
+    4:       <%= g.text_field :title, label: false, :placeholder => "What are we drafting today?" %>
+    5:       <%= g.submit "Let's get going!", :class => "btn btn-inverse" %>
+    6:     <% end %>
+  app/views/games/new.html.erb:3:in `_app_views_games_new_html_erb__2494570635681597801_24617480'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (17.8ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateChoices (20130909060303)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  DROP TABLE "choices"
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20130909060303'[0m
+  [1m[35m (66.5ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreatePlayers (20130909060126)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  DROP INDEX "index_players_on_owns_game_id"
+  [1m[36m (0.5ms)[0m  [1mDROP TABLE "players"[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20130909060126'
+  [1m[36m (28.5ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateGames (20130909055433)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  DROP TABLE "games"
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20130909055433'[0m
+  [1m[35m (63.9ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateGames (20130909055433)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.7ms)[0m  [1mCREATE TABLE "games" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "identifier" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20130909055433"]]
+  [1m[36m (50.7ms)[0m  [1mcommit transaction[0m
+Migrating to CreatePlayers (20130909060126)
+  [1m[35m (3.4ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mCREATE TABLE "players" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "name" varchar(255), "owns_game_id" integer, "hash" varchar(255), "game_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.2ms)[0m  CREATE INDEX "index_players_on_game_id" ON "players" ("game_id")
+  [1m[36m (0.2ms)[0m  [1mCREATE INDEX "index_players_on_owns_game_id" ON "players" ("owns_game_id")[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20130909060126"]]
+  [1m[36m (24.2ms)[0m  [1mcommit transaction[0m
+Migrating to CreateChoices (20130909060303)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "choices" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "body" varchar(255), "votes" integer, "player_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.2ms)[0m  CREATE INDEX "index_choices_on_player_id" ON "choices" ("player_id")
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20130909060303"]]
+  [1m[35m (12.5ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 76.126.149.32 at 2013-09-09 06:32:13 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (88.3ms)
+Completed 200 OK in 213ms (Views: 184.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 76.126.149.32 at 2013-09-09 06:32:14 +0000
+
+
+Started GET "/assets/bootstrap-overrides.css?body=1" for 76.126.149.32 at 2013-09-09 06:32:14 +0000
+
+
+Started GET "/assets/application.css?body=1" for 76.126.149.32 at 2013-09-09 06:32:14 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 76.126.149.32 at 2013-09-09 06:32:15 +0000
+
+
+Started GET "/assets/games.css?body=1" for 76.126.149.32 at 2013-09-09 06:32:15 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 76.126.149.32 at 2013-09-09 06:32:15 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 76.126.149.32 at 2013-09-09 06:32:15 +0000
+
+
+Started GET "/assets/games.js?body=1" for 76.126.149.32 at 2013-09-09 06:32:15 +0000
+
+
+Started GET "/assets/application.js?body=1" for 76.126.149.32 at 2013-09-09 06:32:15 +0000
+
+
+Started GET "/" for 76.126.149.32 at 2013-09-09 06:32:18 +0000
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 76.126.149.32 at 2013-09-09 06:32:18 +0000
+
+
+Started GET "/assets/bootstrap-overrides.css?body=1" for 76.126.149.32 at 2013-09-09 06:32:18 +0000
+
+
+Started GET "/assets/application.css?body=1" for 76.126.149.32 at 2013-09-09 06:32:18 +0000
+
+
+Started GET "/assets/games.css?body=1" for 76.126.149.32 at 2013-09-09 06:32:18 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 76.126.149.32 at 2013-09-09 06:32:19 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 76.126.149.32 at 2013-09-09 06:32:19 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 76.126.149.32 at 2013-09-09 06:32:19 +0000
+
+
+Started GET "/assets/games.js?body=1" for 76.126.149.32 at 2013-09-09 06:32:19 +0000
+
+
+Started GET "/assets/application.js?body=1" for 76.126.149.32 at 2013-09-09 06:32:19 +0000
+
+
+Started GET "/" for 76.126.149.32 at 2013-09-09 06:33:04 +0000
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 21ms (Views: 19.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 76.126.149.32 at 2013-09-09 06:33:04 +0000
+
+
+Started GET "/assets/bootstrap-overrides.css?body=1" for 76.126.149.32 at 2013-09-09 06:33:04 +0000
+
+
+Started GET "/assets/application.css?body=1" for 76.126.149.32 at 2013-09-09 06:33:04 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 76.126.149.32 at 2013-09-09 06:33:04 +0000
+
+
+Started GET "/assets/games.css?body=1" for 76.126.149.32 at 2013-09-09 06:33:04 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 76.126.149.32 at 2013-09-09 06:33:04 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 76.126.149.32 at 2013-09-09 06:33:04 +0000
+
+
+Started GET "/assets/games.js?body=1" for 76.126.149.32 at 2013-09-09 06:33:04 +0000
+
+
+Started GET "/assets/application.js?body=1" for 76.126.149.32 at 2013-09-09 06:33:04 +0000
+
+
+Started GET "/" for 76.126.149.32 at 2013-09-09 06:33:37 +0000
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 76.126.149.32 at 2013-09-09 06:33:38 +0000
+
+
+Started GET "/assets/bootstrap-overrides.css?body=1" for 76.126.149.32 at 2013-09-09 06:33:38 +0000
+
+
+Started GET "/assets/application.css?body=1" for 76.126.149.32 at 2013-09-09 06:33:38 +0000
+
+
+Started GET "/assets/games.css?body=1" for 76.126.149.32 at 2013-09-09 06:33:38 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 76.126.149.32 at 2013-09-09 06:33:38 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 76.126.149.32 at 2013-09-09 06:33:38 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 76.126.149.32 at 2013-09-09 06:33:38 +0000
+
+
+Started GET "/assets/games.js?body=1" for 76.126.149.32 at 2013-09-09 06:33:38 +0000
+
+
+Started GET "/assets/application.js?body=1" for 76.126.149.32 at 2013-09-09 06:33:38 +0000
+
+
+Started GET "/" for 76.126.149.32 at 2013-09-09 06:33:57 +0000
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 76.126.149.32 at 2013-09-09 06:33:57 +0000
+
+
+Started GET "/assets/bootstrap-overrides.css?body=1" for 76.126.149.32 at 2013-09-09 06:33:57 +0000
+
+
+Started GET "/assets/application.css?body=1" for 76.126.149.32 at 2013-09-09 06:33:57 +0000
+
+
+Started GET "/assets/games.css?body=1" for 76.126.149.32 at 2013-09-09 06:33:57 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 76.126.149.32 at 2013-09-09 06:33:57 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 76.126.149.32 at 2013-09-09 06:33:57 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 76.126.149.32 at 2013-09-09 06:33:57 +0000
+
+
+Started GET "/assets/games.js?body=1" for 76.126.149.32 at 2013-09-09 06:33:57 +0000
+
+
+Started GET "/assets/application.js?body=1" for 76.126.149.32 at 2013-09-09 06:33:57 +0000
+
+
+Started GET "/" for 76.126.149.32 at 2013-09-09 06:36:47 +0000
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 76.126.149.32 at 2013-09-09 06:36:48 +0000
+
+
+Started GET "/assets/bootstrap-overrides.css?body=1" for 76.126.149.32 at 2013-09-09 06:36:48 +0000
+
+
+Started GET "/assets/application.css?body=1" for 76.126.149.32 at 2013-09-09 06:36:48 +0000
+
+
+Started GET "/assets/games.css?body=1" for 76.126.149.32 at 2013-09-09 06:36:48 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 76.126.149.32 at 2013-09-09 06:36:48 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 76.126.149.32 at 2013-09-09 06:36:48 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 76.126.149.32 at 2013-09-09 06:36:48 +0000
+
+
+Started GET "/assets/games.js?body=1" for 76.126.149.32 at 2013-09-09 06:36:48 +0000
+
+
+Started GET "/assets/application.js?body=1" for 76.126.149.32 at 2013-09-09 06:36:49 +0000
+
+
+Started GET "/" for 76.126.149.32 at 2013-09-09 06:37:44 +0000
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 76.126.149.32 at 2013-09-09 06:37:45 +0000
+
+
+Started GET "/assets/application.css?body=1" for 76.126.149.32 at 2013-09-09 06:37:45 +0000
+
+
+Started GET "/assets/bootstrap-overrides.css?body=1" for 76.126.149.32 at 2013-09-09 06:37:45 +0000
+
+
+Started GET "/assets/games.css?body=1" for 76.126.149.32 at 2013-09-09 06:37:45 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 76.126.149.32 at 2013-09-09 06:37:45 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 76.126.149.32 at 2013-09-09 06:37:45 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 76.126.149.32 at 2013-09-09 06:37:45 +0000
+
+
+Started GET "/assets/games.js?body=1" for 76.126.149.32 at 2013-09-09 06:37:45 +0000
+
+
+Started GET "/assets/application.js?body=1" for 76.126.149.32 at 2013-09-09 06:37:45 +0000
+
+
+Started GET "/" for 76.126.149.32 at 2013-09-09 06:38:34 +0000
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 76.126.149.32 at 2013-09-09 06:38:35 +0000
+
+
+Started GET "/assets/bootstrap-overrides.css?body=1" for 76.126.149.32 at 2013-09-09 06:38:35 +0000
+
+
+Started GET "/assets/application.css?body=1" for 76.126.149.32 at 2013-09-09 06:38:35 +0000
+
+
+Started GET "/assets/games.css?body=1" for 76.126.149.32 at 2013-09-09 06:38:35 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 76.126.149.32 at 2013-09-09 06:38:35 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 76.126.149.32 at 2013-09-09 06:38:35 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 76.126.149.32 at 2013-09-09 06:38:35 +0000
+
+
+Started GET "/assets/games.js?body=1" for 76.126.149.32 at 2013-09-09 06:38:35 +0000
+
+
+Started GET "/assets/application.js?body=1" for 76.126.149.32 at 2013-09-09 06:38:35 +0000
+
+
+Started GET "/" for 76.126.149.32 at 2013-09-09 06:38:51 +0000
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 76.126.149.32 at 2013-09-09 06:38:51 +0000
+
+
+Started GET "/assets/bootstrap-overrides.css?body=1" for 76.126.149.32 at 2013-09-09 06:38:51 +0000
+
+
+Started GET "/assets/application.css?body=1" for 76.126.149.32 at 2013-09-09 06:38:51 +0000
+
+
+Started GET "/assets/games.css?body=1" for 76.126.149.32 at 2013-09-09 06:38:51 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 76.126.149.32 at 2013-09-09 06:38:51 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 76.126.149.32 at 2013-09-09 06:38:52 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 76.126.149.32 at 2013-09-09 06:38:52 +0000
+
+
+Started GET "/assets/games.js?body=1" for 76.126.149.32 at 2013-09-09 06:38:52 +0000
+
+
+Started GET "/assets/application.js?body=1" for 76.126.149.32 at 2013-09-09 06:38:52 +0000
+
+
+Started GET "/" for 76.126.149.32 at 2013-09-09 06:40:05 +0000
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 98ms (Views: 96.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 76.126.149.32 at 2013-09-09 06:40:06 +0000
+
+
+Started GET "/assets/bootstrap-overrides.css?body=1" for 76.126.149.32 at 2013-09-09 06:40:06 +0000
+
+
+Started GET "/assets/application.css?body=1" for 76.126.149.32 at 2013-09-09 06:40:06 +0000
+
+
+Started GET "/assets/games.css?body=1" for 76.126.149.32 at 2013-09-09 06:40:06 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 76.126.149.32 at 2013-09-09 06:40:06 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 76.126.149.32 at 2013-09-09 06:40:06 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 76.126.149.32 at 2013-09-09 06:40:07 +0000
+
+
+Started GET "/assets/games.js?body=1" for 76.126.149.32 at 2013-09-09 06:40:07 +0000
+
+
+Started GET "/assets/application.js?body=1" for 76.126.149.32 at 2013-09-09 06:40:07 +0000
+
+
+Started GET "/" for 76.126.149.32 at 2013-09-09 06:41:18 +0000
+Processing by GamesController#new as HTML
+  Rendered games/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 76.126.149.32 at 2013-09-09 06:41:19 +0000
+
+
+Started GET "/assets/bootstrap-overrides.css?body=1" for 76.126.149.32 at 2013-09-09 06:41:19 +0000
+
+
+Started GET "/assets/application.css?body=1" for 76.126.149.32 at 2013-09-09 06:41:19 +0000
+
+
+Started GET "/assets/games.css?body=1" for 76.126.149.32 at 2013-09-09 06:41:19 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 76.126.149.32 at 2013-09-09 06:41:19 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 76.126.149.32 at 2013-09-09 06:41:19 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 76.126.149.32 at 2013-09-09 06:41:19 +0000
+
+
+Started GET "/assets/games.js?body=1" for 76.126.149.32 at 2013-09-09 06:41:19 +0000
+
+
+Started GET "/assets/application.js?body=1" for 76.126.149.32 at 2013-09-09 06:41:19 +0000
